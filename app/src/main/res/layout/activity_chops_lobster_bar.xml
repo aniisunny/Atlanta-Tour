@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChopsLobsterBar">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/Image"
+            android:src="@drawable/chobslobsterbar"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="225dp" />
+
+        <TextView
+            android:id="@+id/Name"
+            android:text="Chops Lobster Bar"
+            android:paddingTop="6dp"
+            android:paddingLeft="12dp"
+            android:paddingBottom="1.5dp"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            android:textSize="20dp"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/Address"
+            android:text="70 West Paces Ferry Rd NW, Atlanta, GA"
+            android:paddingLeft="12dp"
+            android:paddingBottom="12dp"
+            android:paddingTop="1.5dp"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/Info"
+            android:text="View More Info"
+            android:paddingLeft="12dp"
+            android:paddingBottom="12dp"
+            android:textColor="@android:color/holo_red_light"
+            android:background="@android:color/black"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:padding="12dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="88dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="88dp">
+
+                <ImageView
+                    android:id="@+id/Call"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="3dp"
+                    android:src="@drawable/baseline_call_black_24dp"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp" />
+
+                <TextView
+                    android:text="Call"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="8dp"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="88dp">
+
+                <ImageView
+                    android:id="@+id/Web"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="3dp"
+                    android:src="@drawable/baseline_public_black_24dp"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp" />
+
+                <TextView
+                    android:text="Web"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="8dp"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="88dp">
+
+                <ImageView
+                    android:id="@+id/Map"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="3dp"
+                    android:src="@drawable/baseline_map_black_24dp"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp" />
+
+                <TextView
+                    android:text="Map"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="16dp"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="88dp">
+
+                <ImageView
+                    android:id="@+id/Share"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="3dp"
+                    android:src="@drawable/baseline_share_black_24dp"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp" />
+
+                <TextView
+                    android:text="Share"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="16dp"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="88dp">
+
+                <ImageView
+                    android:id="@+id/Save"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="3dp"
+                    android:src="@drawable/baseline_favorite_border_black_24dp"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp" />
+
+                <TextView
+                    android:id="@+id/Saved"
+                    android:text="Save"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="16dp"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:text="Who You'll See"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/Celebrity"
+            android:text="Visit Chops Lobster Bar and you might see Larry David, Russel Crowe, Justin Bieber, Bily Bob Thornton, Vin Diesel, Dennis Quaid, Kate Bosworth or Ryan Gosling!"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:paddingLeft="12dp"
+            android:paddingBottom="15dp"
+            android:paddingRight="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Who You'll Find"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/About"
+            android:text="An Atlanta icon known for its exceptional food and service, Chops consistently ranks as one of the top ten steakhouses in the country. Exquisite seafood flown in fresh daily and the very best USDA prime aged beef are served with style in the warm ambiance of the dark wood dining room. Whether you’re dining for business or pleasure, a meal at Chops is sure to make a lasting impression."
+            android:textAppearance="?android:textAppearanceMedium"
+            android:paddingLeft="12dp"
+            android:paddingBottom="15dp"
+            android:paddingRight="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

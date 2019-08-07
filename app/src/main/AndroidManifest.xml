@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.atlantatour">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".STK"
+            android:label="STK ATlanta">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".STK" />
+        </activity>
+        <activity
+            android:name=".PuffPetals"
+            android:label="Puff and Petals">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PuffPetals" />
+        </activity>
+        <activity
+            android:name=".OperaNightClub"
+            android:label="Opera Night Club">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".OperaNightClub" />
+        </activity>
+        <activity
+            android:name=".Compound"
+            android:label="Compound">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Compound" />
+        </activity>
+        <activity
+            android:name=".ClermontLounge"
+            android:label="Clermont Lounge">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ClermontLounge" />
+        </activity>
+        <activity
+            android:name=".SunTrustPark"
+            android:label="Sun Trust Park">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SunTrustPark" />
+        </activity>
+        <activity
+            android:name=".PhillipsArena"
+            android:label="Phillips Arena">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PhillipsArena" />
+        </activity>
+        <activity
+            android:name=".MercedesBenzStadium"
+            android:label="Mercedes Benz Stadium">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MercedesBenzStadium" />
+        </activity>
+        <activity
+            android:name=".FoxTheatre"
+            android:label="Fox Theatre">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FoxTheatre" />
+        </activity>
+        <activity
+            android:name=".TheShopsBuckhead"
+            android:label="The Shops Buckhead Atlanta">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TheShopsBuckhead" />
+        </activity>
+        <activity
+            android:name=".PhippsPlaza"
+            android:label="Phipps Plaza">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PhippsPlaza" />
+        </activity>
+        <activity
+            android:name=".LenoxSquare"
+            android:label="Lenox Square">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LenoxSquare" />
+        </activity>
+        <activity
+            android:name=".Park75"
+            android:label="Park 75">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Park75" />
+        </activity>
+        <activity
+            android:name=".SouthCityKitchen"
+            android:label="South City Kitchen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SouthCityKitchen" />
+        </activity>
+        <activity
+            android:name=".PonceCityMarket"
+            android:label="Ponce City Market">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PonceCityMarket" />
+        </activity>
+        <activity
+            android:name=".ChopsLobsterBar"
+            android:label="Chops Lobster Bar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ChopsLobsterBar" />
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
